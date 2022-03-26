@@ -1,0 +1,18 @@
+#ifndef SSPConst_h
+#define SSPConst_h
+
+#define SSP_ADDRESS_BYTE_1 0
+#define SSP_ADDRESS_BYTE_2 1
+
+#define SSP_START_BYTE 0x02
+#define SSP_END_BYTE   0x17
+#define SSP_SPLIT_BYTE 0x1D
+
+#define SSP_PACKET_DATA_TYPE_STRING 20
+
+#define SSP_PACKET_FROM_FIRST_BYTE_POS    0
+#define SSP_PACKET_TO_FIRST_BYTE_POS      2
+#define SSP_PACKET_DT_FIRST_BYTE_POS      4
+#define SSP_PACKET_MESSAGE_FIRST_BYTE_POS 6
+
+#endif
